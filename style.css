@@ -1,0 +1,119 @@
+.body {
+  font-family: arial;
+}
+
+.container-right {
+  width: 20%;
+  /* background-color: lightcyan; */
+  margin: 10px 1040px;
+  padding-left: 180px;
+}
+
+.container-right .links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.container-right .links li a {
+  text-decoration: none;
+}
+
+.button-wrapper {
+  width: 100%;
+  height: 40px;
+}
+
+.button-wrapper .button {
+  border-radius: 5px;
+  padding: 10px 20px;
+  background: #4285f4;
+}
+
+.button-wrapper .button p {
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.the-main {
+  width: 500px;
+  /* background-color: lightgrey; */
+  margin-top: 150px;
+  margin-left: 400px;
+  padding: 0 200px;
+  margin-bottom: 30px;
+}
+
+.the-main .Google-Image .Google-Image-Logo {
+  margin-left: 100px;
+}
+
+.the-main .Google-Image .search-bar {
+  width: 500px;
+  height: 40px;
+  border-radius: 20px;
+}
+.the-main .Google-Image .small-container {
+  margin-left: 100px;
+  /* background-color: lightskyblue; */
+  width: 272px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.the-main .Google-Image .small-container a {
+  text-decoration: none;
+  color: #465160;
+}
+
+.the-main .Google-Image .small-container a:hover {
+  border: 1px solid #c8c8c8;
+}
+
+.the-main .Google-Image .small-container .Google-search {
+  padding: 7px 16px;
+  background-color: #f8f9fa;
+  margin-right: 5px;
+  border-radius: 5px;
+}
+
+.the-main .Google-Image .small-container .lucky {
+  padding: 7px 5px;
+  background-color: #f8f9fa;
+  margin-left: 5px;
+  border-radius: 5px;
+}
+
+.the-main .Google-Image .google-languages {
+  background-color: lightgreen;
+  display: flex;
+  margin-left: 55px;
+}
+
+.the-main .Google-Image .google-languages p {
+  display: inline;
+  background-color: lightgrey;
+}
+
+.the-main .Google-Image .google-languages {
+  list-style: none;
+  margin-bottom: 173.59px;
+  background-color: lightskyblue;
+  margin-right: 70px;
+}
+
+.the-main .Google-Image .google-languages p a {
+  text-decoration: none;
+}
+
+.last-container {
+  background-color: #f2f2f2;
+  width: 100%;
+  height: 96.4px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
